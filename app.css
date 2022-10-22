@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    font-family: "Nunito", sans-serif;
+    color: whitesmoke;
+    max-width: fit-content;
+}
+.burgo h2{
+    color: #FD841F;
+    font-weight: 100;
+    transition: 0.1s;
+}
+.burgo p{
+    font: 1.125 rem;
+    line-height: 1.8;
+}
+#mainnavbar{
+    font-size: 1.15rem;
+    font-weight: 200;
+}
+
+#mainnavbar .navbar-brand{
+    color: #FCE700;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+#mainnavbar .navbar-brand:hover{
+    color: #FD841F;
+    text-shadow: 0 0.1rem 0.1rem #FCE700;
+    transform: translate(0, -0.15rem) ;
+    scale: 1.15;
+}
+#mainnavbar .nav-link{
+    color: white;
+    transition: 0.1s;
+}
+#mainnavbar .nav-link:hover{
+    color: #FCE700;
+    text-shadow: 0 0.1rem 0.1rem #FDFF00;
+    transform: translate(0, -0.15em) ;
+}
+#headinggroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+    color: #FCE700;
+    transition: 0.1s;
+}
+#headinggroup h1:hover {
+    transform: translate(0, -0.25em);
+    text-shadow: 0 0.1rem 1rem #FD841F;
+}
+#headinggroup span{
+    color: #FD841F;
+}
+@media (max-width: 1050px){
+    #headinggroup h1{
+        font-weight: 100;
+        font-size: 2.5rem;
+        color: #FCE700;
+    }
+}
+@media (max-width: 900px){
+    #headinggroup h1{
+        font-weight: 80;
+        font-size: 2.1rem;
+        color: #FCE700;
+    }
+}
+.content{
+    margin-top: 70px;
+}
+.burgo h2:hover{
+    text-shadow: 0 0.1rem 0.1rem #FCE700;
+    transform: translate(0, -0.35rem) ;
+}
+.navbar.scrolled{
+    background-color: #181818;
+    transition: background 500ms;
+}
+.main-footer{
+    background-color: #181818;
+}
+.login{
+    margin-top: 1rem;
+    border: 2px solid white;
+    background-color: black;
+    color: yellow;
+    box-shadow: 0.1rem 0.1rem 0.1rem #FCE700;
+}
+.boticons{
+    vertical-align: baseline;
+}
+.banana{
+    transition: 0.1s;
+}
+.banana:hover{
+    transform: scale(1.1);
+}
